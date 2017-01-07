@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Address Book</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+            <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            .form_5{
+                padding-left: 150px;
+            }
+            .form_7{
+                padding-left: 274px;
+            }
+            
+            .btn_5{
+                margin-left: 30px;
+            }
+            .btn_6{
+                margin-left: 39px;
+            }
+            .btn_7{
+                margin-left: 46px;
+            }
+            .container_1{
+                padding-top: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <h2>Address Book</h2>
+                    </div>
+                </div>
+            </nav>
+        <div class="container-fluid container_1">
+        <form class="form-horizontal">
+            <div class="form-group">
+            <label for="name" class="control-label col-sm-2">Name:</label>
+            <div class="col-sm-3">
+            <input type="text" id="name" class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="address" class="control-label col-sm-2">Address:</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" id="address">
+                    </div>
+                </div>
+            <div class="form-group">
+                <label for="phone" class="control-label col-sm-2">Phone:</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" id="phone">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email" class="control-label col-sm-2">Email:</label>
+                <div class="col-sm-3">
+                    <input type="email" class="form-control" id="email">
+                </div>
+            </div>
+            <div class="form-group form_5">
+                <button type="submit" class="btn btn-default btn_5"><b>Save</b></button>
+                <button type="submit" class="btn btn-default btn_5"><b>Delete</b></button>
+                <button type="submit" class="btn btn-default btn_5"><b>Update</b></button>
+                </div>
+            <div class="form-group form_5" >
+                <button type="submit" class="btn btn-default btn_6"><b><<</b></button>
+                <button type="submit" class="btn btn-default btn_6"><b>Search</b></button>
+                <button type="submit" class="btn btn-default btn_6"><b>>></b></button>
+                </div>
+            <div class="form-group form_7">
+                <button type="submit" class="btn btn-default"><b>Clear<b></button>
+                <button type="submit" class="btn btn-default btn_7"><b>Exit</b></button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
+
